@@ -1,0 +1,34 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+.header {
+  background-color: coral;
+  height: 90px;
+}
+
+.header-logo {
+  font-size: 36px;
+  float: left;
+  padding: 20px 40px;
+}
+
+.header-list li{
+    float: right;
+    padding: 33px 20px;
+}
+
+.main {
+  background-color: aquamarine;
+  height: 600px;
+}
+
+.footer {
+  background-color: coral;
+  height: 120px;
+}
