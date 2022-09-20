@@ -1,85 +1,89 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 li {
-    list-style: none;
-    float: left;
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+.header {
+  background-color: coral;
+  height: 200px;
+}
+
+.header-logo {
+  font-size: 50px;
+  float: left;
+  padding: 20px 40px;
+}
+
+.header-list li{
+    float: right;
+    font-size: 30px;
     padding: 33px 20px;
 }
 
-.header {
-    background-color: coral;
-    height: 120px;
-}
-  
-.header-logo {
-    font-size: 50px;
-    float: left;
-    padding: 20px 40px;
-}
-  
-.header-list li{
-      float: right;
-      font-size: 30px;
-      padding: 33px 20px;
-}
-  
-  .body {
-  margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.main {
+  background-color: aquamarine;
+  height: 700px;
+  font-size: 30px;
 }
 
-a {
-  text-decoration: none;
+.copy-container h2 {
+  font-size: 100px;
 }
 
-.container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+.section-title {
+  border-bottom: 2px solid #dee7ec; /*batas*/
 }
 
-.top-wrapper {
-    padding: 200px 0 265px 0;
-    opacity: 30;
-    background-image: url(img1662529649600.jpg);
-    background-size: cover;
-    color: black;
-    text-align: center;
-
-
+.content { /*konten*/
+  width: 1200px;
+  height: auto;
+  margin: 10px auto; /*margin*/
+  text-align: justify;
+}
+.kolom-koran {
+  -webkit-column-count: 3; /*untuk chrome, safari, dan opera*/
+  -moz-column-count: 3; /*khusus untuk mozilla*/
+  column-count: 3;
 }
 
-.top-wrapper h1 {
-    font-size: 30px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-
+.contact-form {
+  padding-top: 50px;
 }
 
-.top-wrapper p {
-    letter-spacing: 5px;
-    margin-bottom: 10px;
+input,textarea{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
 }
 
-.btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.7;
-    border-radius: 4px;
+input,textarea{
+  border: 1px solid #dee7ec; 
 }
 
-.btn:hover {
-    opacity: 1;
+.submit-contact {
+  background-color: #dee7ec;
+  color: black;
+}
+.footer {
+  background-color: coral;
+  height: 170px;
+  font-size: 30px;
 }
 
-.signup {
-    background-color: burlywood;
+.footer-logo {
+  font-size: 40px;
+  float: left;
+  padding: 20px 40px;
 }
 
-.facebook { 
-    background-color: blueviolet;
-    
-}
-
-.twitter {  
-    background-color: bisque
+.footer-list li {
+  float: right;
+  font-size: 30px;
+  padding: 33px 20px;
 }
