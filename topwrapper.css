@@ -1,0 +1,85 @@
+li {
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+}
+
+.header {
+    background-color: coral;
+    height: 120px;
+}
+  
+.header-logo {
+    font-size: 50px;
+    float: left;
+    padding: 20px 40px;
+}
+  
+.header-list li{
+      float: right;
+      font-size: 30px;
+      padding: 33px 20px;
+}
+  
+  .body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 200px 0 265px 0;
+    opacity: 30;
+    background-image: url(img1662529649600.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+
+
+}
+
+.top-wrapper h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+
+}
+
+.top-wrapper p {
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signup {
+    background-color: burlywood;
+}
+
+.facebook { 
+    background-color: blueviolet;
+    
+}
+
+.twitter {  
+    background-color: bisque
+}
